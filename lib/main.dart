@@ -90,7 +90,7 @@ class RandomWordsState extends State<RandomWords>{
 
 // Saved suggstions Page
 class SavedSuggetions extends StatefulWidget{
-  Set<WordPair> _savedWords;
+  final Set<WordPair> _savedWords;
   
   SavedSuggetions(Set<WordPair> sw):_savedWords = sw;
 
